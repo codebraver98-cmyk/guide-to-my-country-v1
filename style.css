@@ -1,0 +1,90 @@
+body{
+    background-color:rgb(236, 53, 53);
+}
+nav{
+    background-color: whitesmoke;
+    border:2px dotted rgb(236, 53, 53);
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+nav ul li {
+    display:inline;
+    padding:30px;
+}
+nav ul li a{
+    color:rgb(236, 53, 53);
+    text-decoration: none;
+    font-family:sans-serif ;
+}
+nav ul li a:hover{
+    color:black;
+}
+#flag{
+    margin-top: 100px;
+    margin-left: 30px;
+    width: 500px;
+    height: 450px;
+    filter:opacity(70%);
+    border-radius: 100px;
+    z-index:-1;
+    border: 5px solid whitesmoke;
+}
+#flag:hover{
+    filter:opacity(100%);
+    border: 5px solid whitesmoke;
+}
+.overlay{
+    color: whitesmoke;
+}
+.overlay h1{
+    position:absolute;
+    top:200px;
+    right: 30%;
+}    
+.overlay #intro{
+    position: absolute;
+    top:270px;
+    left: 20%;
+    
+}
+.funfacts{
+    display: inline-block;
+    width: 200px;
+    padding:30px;
+    color: rgb(236, 53, 53);
+    border:5px dashed rgb(236, 53, 53);
+    border-radius: 20px;
+    background-color: whitesmoke;
+
+}
+#last{
+    margin-bottom: 10%;   
+}
+#engage{
+    padding-top: 20px;
+    border-top: dashed;
+    text-align:center;
+    color:whitesmoke;
+}
+.nature{
+    float:right;
+    width:300px;
+    height:200px;
+    border:3px solid whitesmoke;
+    border-radius: 30px;
+    margin-top:100px;
+}
+.body{
+    background-color: whitesmoke;
+    border:10px double rgb(236, 53, 53); ;
+    padding:5%;
+    color:rgb(236, 53, 53);
+}
+.titles{
+    color:whitesmoke;
+    padding-top: 100px;
+}
+.titles:hover{
+    font-size: 20px;
+}
